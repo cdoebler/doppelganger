@@ -19,7 +19,15 @@ This plugin allows authorized administrators to instantly switch their session t
 
 ## Installation
 
-This is a Composer-based WordPress plugin. You can install it using Composer:
+Right now, the WordPress plugin is not available on the WordPress plugin repository because
+of unsupported PHP keywords in the plugin's code but it will be released once the PHP keywords
+are accepted by WordPress.
+
+You can still install the plugin manually by downloading a zip archive from
+the [Releases page](https://github.com/cdoebler/doppelganger/releases) and installing it
+in the WordPress backend or by using Composer.
+
+Installation via Composer:
 
 ```bash
 composer require cdoebler/doppelganger
