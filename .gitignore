@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Composer
+composer.phar
+.php_cs.cache
+.phpunit.cache
+.phpunit.result.cache
+
+# PHPStan
+phpstan.neon.dist
+
+# Build / Temp
+build/
+dist/
+*.log

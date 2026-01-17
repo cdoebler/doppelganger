@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Constant DOPPELGANGER_ALLOWED_ENVIRONMENTS not found\.$#'
+			identifier: constant.notFound
+			count: 1
+			path: src/class-config-helper.php
